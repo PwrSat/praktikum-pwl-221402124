@@ -20,10 +20,8 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-<<<<<<< HEAD
-=======
-
         $this -> call(UsersTableSeeder::class);
->>>>>>> 51a77e9 (pertemuan 4)
+        $this -> call(PostsTableSeeder::class);
+
     }
 }
